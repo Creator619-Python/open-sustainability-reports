@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Open Sustainability Reports Database — EU Pilot</title>
+<style>
+  :root { --bg:#0f1115; --card:#171a21; --text:#e8eaed; --muted:#9aa0a6; --accent:#4f8cff; --border:#2a2e37; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, Segoe UI, Roboto, sans-serif; background:var(--bg); color:var(--text); }
+  header { padding: 24px 32px; border-bottom: 1px solid var(--border); }
+  h1 { margin:0 0 4px; font-size: 22px; }
+  p.sub { margin:0; color:var(--muted); font-size:14px; }
+  .controls { display:flex; gap:12px; padding:16px 32px; flex-wrap:wrap; border-bottom:1px solid var(--border); }
+  select, input { background:var(--card); color:var(--text); border:1px solid var(--border); border-radius:6px; padding:8px 10px; font-size:14px; }
+  input { flex:1; min-width:200px; }
+  table { width:100%; border-collapse: collapse; }
+  th, td { text-align:left; padding:10px 14px; border-bottom:1px solid var(--border); font-size:13px; }
+  th { color:var(--muted); position:sticky; top:0; background:var(--bg); cursor:default; }
+  tr:hover { background: rgba(255,255,255,0.03); }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .wrap { max-height: 70vh; overflow:auto; margin:0 32px 32px; border:1px solid var(--border); border-radius:8px; }
+  .badge { padding:2px 8px; border-radius:10px; font-size:11px; }
+  .badge-y { background:#1e3a2a; color:#5fd88a; }
+  .badge-n { background:#3a1e1e; color:#d85f5f; }
+  footer { padding:16px 32px; color:var(--muted); font-size:12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Open Sustainability Reports Database — EU Pilot</h1>
+  <p class="sub">CC0-licensed · v0.1 · 49 companies · 8 countries · direct company sourcing</p>
+</header>
+<div class="controls">
+  <input id="search" placeholder="Search company name...">
+  <select id="countryFilter"><option value="">All countries</option></select>
+  <select id="sectorFilter"><option value="">All sectors</option></select>
+</div>
+<div class="wrap">
+  <table id="tbl">
+    <thead>
+      <tr><th>Company</th><th>Country</th><th>Sector</th><th>HQ City</th><th>GRI Referenced</th><th>Sustainability Page</th></tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+<footer>Data unverified pending community review — see CONTRIBUTING.md. Not affiliated with GRI.</footer>
+
+<script>
+fetch('../eu_sustainability_reports.json').then(r=>r.json()).then(data=>{
+  const tbody = document.getElementById('tbody');
+  const countryFilter = document.getElementById('countryFilter');
+  const sectorFilter = document.getElementById('sectorFilter');
+  const search = document.getElementById('search');
+
+  [...new Set(data.map(d=>d.country))].sort().forEach(c=>{
+    const o=document.createElement('option'); o.value=c; o.textContent=c; countryFilter.appendChild(o);
+  });
+  [...new Set(data.map(d=>d.sector))].sort().forEach(s=>{
+    const o=document.createElement('option'); o.value=s; o.textContent=s; sectorFilter.appendChild(o);
+  });
+
+  function render() {
+    const q = search.value.toLowerCase();
+    const c = countryFilter.value;
+    const s = sectorFilter.value;
+    tbody.innerHTML = '';
+    data.filter(d => (!c || d.country===c) && (!s || d.sector===s) && d.company_name.toLowerCase().includes(q))
+      .forEach(d=>{
+        const tr = document.createElement('tr');
+        tr.innerHTML = `<td>${d.company_name}</td><td>${d.country}</td><td>${d.sector}</td><td>${d.hq_city}</td>
+          <td><span class="badge ${d.gri_referenced==='Y'?'badge-y':'badge-n'}">${d.gri_referenced==='Y'?'Yes':'No'}</span></td>
+          <td><a href="${d.sustainability_page_url}" target="_blank" rel="noopener">Link</a></td>`;
+        tbody.appendChild(tr);
+      });
+  }
+  search.addEventListener('input', render);
+  countryFilter.addEventListener('change', render);
+  sectorFilter.addEventListener('change', render);
+  render();
+});
+</script>
+</body>
+</html>

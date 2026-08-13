@@ -9,7 +9,7 @@ GRI's own Sustainability Disclosure Database was discontinued as an actively mai
 ## Pilot scope (v0.1)
 
 - **Region:** European Union
-- **Companies:** 49
+- **Companies:** 98
 - **Countries:** 8 (Germany, France, Denmark, Italy, Spain, Netherlands, Belgium, Austria)
 - **Sectors:** 25 sector/sub-sector labels across technology, automotive, pharma, finance, energy, retail, and more
 

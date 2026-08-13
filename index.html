@@ -47,7 +47,9 @@
 <footer>Data unverified pending community review — see CONTRIBUTING.md. Not affiliated with GRI.</footer>
 
 <script>
-fetch('../eu_sustainability_reports.json').then(r=>r.json()).then(data=>{
+fetch('./eu_sustainability_reports.json')
+  .then(r=>r.json())
+  .then(data=>{
   const tbody = document.getElementById('tbody');
   const countryFilter = document.getElementById('countryFilter');
   const sectorFilter = document.getElementById('sectorFilter');
@@ -78,6 +80,9 @@ fetch('../eu_sustainability_reports.json').then(r=>r.json()).then(data=>{
   countryFilter.addEventListener('change', render);
   sectorFilter.addEventListener('change', render);
   render();
+}).catch(err => {
+  const tbody = document.getElementById('tbody');
+  tbody.innerHTML = `<tr><td colspan="6" style="color:#d85f5f;">Failed to load data: ${err.message}</td></tr>`;
 });
 </script>
 </body>

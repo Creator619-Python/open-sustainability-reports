@@ -1,0 +1,312 @@
+company_name,country,sector,hq_city,sustainability_page_url,gri_referenced,report_year,universal_standards,topic_standards_200,topic_standards_300,topic_standards_400,externally_assured,verification_status,source_method
+SAP,Germany,Technology,Walldorf,https://www.sap.com/about/company/sustainability.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Siemens,Germany,Industrial Manufacturing,Munich,https://www.siemens.com/global/en/company/sustainability.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Siemens Healthineers,Germany,Healthcare,Erlangen,https://www.siemens-healthineers.com/company/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Volkswagen Group,Germany,Automotive,Wolfsburg,https://www.volkswagen-group.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Mercedes-Benz Group,Germany,Automotive,Stuttgart,https://group.mercedes-benz.com/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+BMW Group,Germany,Automotive,Munich,https://www.bmwgroup.com/en/sustainability.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Allianz,Germany,Finance & Insurance,Munich,https://www.allianz.com/en/sustainability.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Deutsche Bank,Germany,Finance,Frankfurt,https://www.db.com/what-we-do/esg,Y,,,,,,,unverified - pending manual review,direct company sourcing
+BASF,Germany,Chemicals,Ludwigshafen,https://www.basf.com/global/en/who-we-are/sustainability.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Bayer,Germany,Pharmaceuticals,Leverkusen,https://www.bayer.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Adidas,Germany,Retail & Consumer,Herzogenaurach,https://www.adidas-group.com/en/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Puma,Germany,Retail & Consumer,Herzogenaurach,https://about.puma.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Vonovia,Germany,Real Estate,Bochum,https://www.vonovia.de/en-us/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Infineon Technologies,Germany,Technology,Neubiberg,https://www.infineon.com/cms/en/about-infineon/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Schneider Electric,France,Industrial & Energy,Rueil-Malmaison,https://www.se.com/ww/en/about-us/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+LVMH,France,Luxury Goods,Paris,https://www.lvmh.com/group/commitments/environment/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+L'Oreal,France,Consumer Goods,Clichy,https://www.loreal.com/en/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+TotalEnergies,France,Energy,Courbevoie,https://totalenergies.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Sanofi,France,Pharmaceuticals,Paris,https://www.sanofi.com/en/our-responsibility,Y,,,,,,,unverified - pending manual review,direct company sourcing
+BNP Paribas,France,Finance,Paris,https://www.bnpparibas.com/en/commitments,Y,,,,,,,unverified - pending manual review,direct company sourcing
+AXA,France,Finance & Insurance,Paris,https://www.axa.com/en/about-us/corporate-responsibility,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Danone,France,Food & Beverage,Paris,https://www.danone.com/impact.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Airbus,France,Aerospace & Manufacturing,Toulouse,https://www.airbus.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Engie,France,Energy & Utilities,Courbevoie,https://www.engie.com/en/group/sustainable-development,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Hermes,France,Luxury Goods,Paris,https://www.hermes.com/us/en/story/271722-sustainable-development/,N,,,,,,,unverified - pending manual review,direct company sourcing
+Novo Nordisk,Denmark,Pharmaceuticals,Bagsvaerd,https://www.novonordisk.com/sustainable-business.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Novonesis,Denmark,Biotechnology,Bagsvaerd,https://www.novonesis.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Vestas Wind Systems,Denmark,Energy,Aarhus,https://www.vestas.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Orsted,Denmark,Energy & Utilities,Fredericia,https://orsted.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Maersk,Denmark,Logistics & Transport,Copenhagen,https://www.maersk.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Eni,Italy,Energy,Rome,https://www.eni.com/en-IT/sustainability.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Enel,Italy,Utilities,Rome,https://www.enel.com/company/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Ferrari,Italy,Automotive & Luxury,Maranello,https://corporate.ferrari.com/en/sustainability,N,,,,,,,unverified - pending manual review,direct company sourcing
+Intesa Sanpaolo,Italy,Finance,Turin,https://group.intesasanpaolo.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+UniCredit,Italy,Finance,Milan,https://www.unicredit.eu/en/sustainability.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Iberdrola,Spain,Utilities & Energy,Bilbao,https://www.iberdrola.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Inditex,Spain,Retail,Arteixo,https://www.inditex.com/en/our-commitment-to-people/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Banco Santander,Spain,Finance,Madrid,https://www.santander.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Telefonica,Spain,Telecommunications,Madrid,https://www.telefonica.com/en/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+ASML Holding,Netherlands,Technology,Veldhoven,https://www.asml.com/en/company/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+ING Group,Netherlands,Finance,Amsterdam,https://www.ing.com/Sustainability.htm,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Heineken,Netherlands,Food & Beverage,Amsterdam,https://www.theheinekencompany.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Philips,Netherlands,Healthcare & Technology,Amsterdam,https://www.philips.com/a-w/about/sustainability.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Ahold Delhaize,Netherlands,Retail,Zaandam,https://www.aholddelhaize.com/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+KBC Group,Belgium,Finance,Brussels,https://www.kbc.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Anheuser-Busch InBev,Belgium,Food & Beverage,Leuven,https://www.ab-inbev.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Solvay,Belgium,Chemicals,Brussels,https://www.solvay.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+OMV,Austria,Energy,Vienna,https://www.omv.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Erste Group,Austria,Finance,Vienna,https://www.erstegroup.com/en/about-us/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Deutsche Telekom,Germany,Telecommunications,Bonn,https://www.telekom.com/en/corporate-responsibility,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Deutsche Post DHL Group,Germany,Logistics,Bonn,https://group.dhl.com/en/sustainability/environment.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Munich Re,Germany,Insurance/Reinsurance,Munich,https://www.munichre.com/en/company/sustainability.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+RWE,Germany,Energy/Utilities,Essen,https://www.rwe.com/en/responsibility-and-sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+E.ON,Germany,Energy/Utilities,Essen,https://www.eon.com/en/about-us/sustainability.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Fresenius,Germany,Healthcare,Bad Homburg,https://www.fresenius.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Fresenius Medical Care,Germany,Healthcare,Bad Homburg,https://www.freseniusmedicalcare.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Continental,Germany,Automotive/Industrial Manufacturing,Hanover,https://www.continental.com/en/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Henkel,Germany,Consumer Goods/Chemicals,Duesseldorf,https://www.henkel.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Beiersdorf,Germany,Consumer Goods,Hamburg,https://www.beiersdorf.com/sustainability/overview,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Merck KGaA,Germany,Pharmaceuticals/Chemicals,Darmstadt,https://www.emdgroup.com/en/sustainability/environment.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Deutsche Boerse,Germany,Financial Services,Frankfurt,https://www.deutsche-boerse.com/dbg-en/about-us/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Commerzbank,Germany,Banking,Frankfurt,https://www.commerzbank.de/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+HeidelbergMaterials,Germany,Building Materials,Heidelberg,https://www.heidelbergmaterials.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Kering,France,Luxury Goods,Paris,https://www.kering.com/en/sustainability/,Y,,,,,,,unverified - pending manual review,"direct company sourcing - URL unconfirmed by search, verify before use"
+Vinci,France,Construction/Concessions,Rueil-Malmaison,https://www.vinci.com/en/sustainability-reports,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Air Liquide,France,Industrial Gases,Paris,https://www.airliquide.com/sustainable-development/advancing-for-a-sustainable-future,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Saint-Gobain,France,Building Materials,Courbevoie,https://www.saint-gobain.com/en/corporate-responsibility,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Credit Agricole,France,Banking,Montrouge,https://www.credit-agricole.com/en/responsible-and-committed/csr-home,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Societe Generale,France,Banking,Paris,https://www.societegenerale.com/en/responsibility/csr-strategy,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Publicis Groupe,France,Advertising,Paris,https://www.publicisgroupe.com/en/the-groupe/corporate-social-responsibility/csr-strategy,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Capgemini,France,IT Services/Consulting,Paris,https://www.capgemini.com/about-us/csr/environmental-sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Michelin,France,Tires/Automotive,Clermont-Ferrand,https://www.michelin.com/en/sustainability/company/planet,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Pernod Ricard,France,Beverages,Paris,https://www.pernod-ricard.com/en/sustainability-responsibility,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Renault Group,France,Automotive,Boulogne-Billancourt,https://www.renaultgroup.com/en/responsability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Danske Bank,Denmark,Banking,Copenhagen,https://danskebank.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Carlsberg Group,Denmark,Beverages,Copenhagen,https://www.carlsberggroup.com/sustainability/our-ambitions/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+DSV,Denmark,Logistics,Hedehusene,https://www.dsv.com/en/sustainability-esg,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Coloplast,Denmark,Healthcare/Medical Devices,Humlebaek,https://sustainability.coloplast.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Genmab,Denmark,Biotechnology,Copenhagen,https://ir.genmab.com/csr.cfm,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Generali,Italy,Insurance,Trieste,https://www.generali.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Poste Italiane,Italy,Postal/Financial Services,Rome,https://www.posteitaliane.it/en/our-approach-to-sustainability.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Prysmian Group,Italy,Cables/Industrial,Milan,https://www.prysmian.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Moncler,Italy,Luxury Fashion,Milan,https://www.monclergroup.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Leonardo,Italy,Aerospace & Defense,Rome,https://www.leonardo.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+BBVA,Spain,Banking,Bilbao,https://www.bbva.com/en/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Repsol,Spain,Energy/Oil & Gas,Madrid,https://www.repsol.com/en/sustainability/index.cshtml,Y,,,,,,,unverified - pending manual review,direct company sourcing
+CaixaBank,Spain,Banking,Valencia,https://www.caixabank.com/en/sustainability.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Amadeus IT Group,Spain,Travel Technology,Madrid,https://amadeus.com/en/sustainability/overview,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Wolters Kluwer,Netherlands,Information Services/Publishing,Alphen aan den Rijn,https://www.wolterskluwer.com/en/about-us/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Randstad,Netherlands,Staffing/HR Services,Diemen,https://www.randstad.com/about-randstad/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+DSM-Firmenich,Netherlands,Nutrition/Chemicals,Kaag en Braassem,https://sustainability.dsm-firmenich.com/en/sustainability.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Adyen,Netherlands,Fintech/Payments,Amsterdam,https://www.adyen.com/,Y,,,,,,,unverified - pending manual review,"direct company sourcing - no dedicated sustainability subpage confirmed, verify before use"
+Akzo Nobel,Netherlands,Paints & Coatings,Amsterdam,https://www.akzonobel.com/en/about-us/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+UCB,Belgium,Pharmaceuticals,Brussels,https://www.ucb.com/about-ucb/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Umicore,Belgium,Materials Technology/Recycling,Brussels,https://www.umicore.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Ageas,Belgium,Insurance,Brussels,https://www.ageas.com/en/about/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Verbund,Austria,Energy/Utilities,Vienna,https://www.verbund.com/en/group/responsibility,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Voestalpine,Austria,Steel/Industrial,Linz,https://www.voestalpine.com/group/en/group/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+AB Volvo Group,Sweden,Automotive/Industrial Manufacturing,Gothenburg,https://www.volvogroup.com/en/sustainable-transportation/responsible-business.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Volvo Cars,Sweden,Automotive,Gothenburg,https://www.volvocars.com/intl/sustainability/highlights/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Ericsson,Sweden,Telecommunications Equipment,Stockholm,https://www.ericsson.com/en/about-us/sustainability-and-corporate-responsibility,Y,,,,,,,unverified - pending manual review,direct company sourcing
+H&M Group,Sweden,Retail/Fashion,Stockholm,https://hmgroup.com/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Atlas Copco,Sweden,Industrial Manufacturing,Nacka,https://www.atlascopco.com/en-us/about-atlas-copco/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Sandvik,Sweden,Industrial Manufacturing,Stockholm,https://www.home.sandvik/en/about-us/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Skanska,Sweden,Construction,Stockholm,https://group.skanska.com/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+SEB,Sweden,Banking,Stockholm,https://sebgroup.com/sustainability/our-impact-areas,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Swedbank,Sweden,Banking,Sundbyberg,https://www.swedbank.com/sustainability.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Electrolux,Sweden,Consumer Goods/Appliances,Stockholm,https://www.electroluxgroup.com/en/category/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+SKF,Sweden,Industrial Manufacturing,Gothenburg,https://www.skf.com/us/organisation/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Essity,Sweden,Hygiene & Health/Consumer Goods,Stockholm,https://www.essity.com/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Alfa Laval,Sweden,Industrial Manufacturing,Lund,https://www.alfalaval.com/about-us/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Assa Abloy,Sweden,Security/Locks,Stockholm,https://www.assaabloy.com/group/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Telia Company,Sweden,Telecommunications,Solna,https://www.teliacompany.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Boliden,Sweden,Mining/Metals,Stockholm,https://www.boliden.com/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Getinge,Sweden,Medical Technology,Gothenburg,https://www.getinge.com/int/company/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Hexagon AB,Sweden,Technology/Measurement,Stockholm,https://hexagon.com/company/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+PKN Orlen,Poland,Energy/Oil & Gas,Plock,https://www.orlen.pl/en/about-the-company,Y,,,,,,,unverified - pending manual review,direct company sourcing
+PKO Bank Polski,Poland,Banking,Warsaw,https://www.pkobp.pl/en/esg,Y,,,,,,,unverified - pending manual review,direct company sourcing
+PZU,Poland,Insurance,Warsaw,https://www.pzu.pl/en/grupa-pzu/zrownowazony-rozwoj/strategia-esg,Y,,,,,,,unverified - pending manual review,direct company sourcing
+KGHM Polska Miedz,Poland,Mining/Metals,Lubin,https://kghm.com/en/investors/esg,Y,,,,,,,unverified - pending manual review,direct company sourcing
+PGE Polska Grupa Energetyczna,Poland,Energy/Utilities,Warsaw,https://www.gkpge.pl/en/pge-group,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Santander Bank Polska,Poland,Banking,Warsaw,https://esg.santander.pl/serwis/en/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+CD Projekt,Poland,Video Games/Entertainment,Warsaw,https://www.cdprojekt.com/en/esg/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+LPP,Poland,Retail/Fashion,Gdansk,https://www.lpp.com/en/sustainable-development,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Dino Polska,Poland,Retail/Grocery,Krotoszyn,https://grupadino.pl/en/financial-reports/,Y,,,,,,,unverified - pending manual review,"direct company sourcing - no dedicated sustainability subpage confirmed, verify before use"
+Cyfrowy Polsat,Poland,Telecommunications/Media,Warsaw,https://grupapolsatplus.pl/en/sustainability-0,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Grupa Azoty,Poland,Chemicals,Tarnow,https://grupaazoty.com/odpowiedzialny-biznes/esg,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Orange Polska,Poland,Telecommunications,Warsaw,https://www.orange.pl/view/csr,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Nokia,Finland,Telecommunications Equipment,Espoo,https://www.nokia.com/about-us/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Neste,Finland,Energy/Renewable Fuels,Espoo,https://www.neste.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Kone Corporation,Finland,Industrial Manufacturing/Elevators,Espoo,https://www.kone.com/en/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Fortum,Finland,Energy/Utilities,Espoo,https://www.fortum.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+UPM-Kymmene,Finland,Forest Products/Paper,Helsinki,https://www.upm.com/,Y,,,,,,,unverified - pending manual review,"direct company sourcing - no dedicated sustainability subpage confirmed, verify before use"
+Stora Enso,Finland,Forest Products/Packaging,Helsinki,https://www.storaenso.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Wartsila,Finland,Marine/Energy Technology,Helsinki,https://www.wartsila.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Sampo Group,Finland,Insurance,Helsinki,https://www.sampo.com/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Nordea Bank,Finland,Banking,Helsinki,https://www.nordea.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Metso,Finland,Industrial Manufacturing/Mining Technology,Helsinki,https://www.metso.com/corporate/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+CRH,Ireland,Building Materials,Dublin,https://www.crh.com/our-sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Ryanair,Ireland,Airlines,Dublin,https://corporate.ryanair.com/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Kerry Group,Ireland,Food Ingredients/Nutrition,Tralee,https://www.kerry.com/about/purpose/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Smurfit Westrock,Ireland,Packaging,Dublin,https://www.smurfitwestrock.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Bank of Ireland,Ireland,Banking,Dublin,https://personalbanking.bankofireland.com/investing-in-tomorrow/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+AIB Group,Ireland,Banking,Dublin,https://www.aib.ie/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Kingspan Group,Ireland,Building Materials/Insulation,Kingscourt,https://www.kingspangroup.com/en/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Glanbia,Ireland,Food/Nutrition,Kilkenny,https://www.glanbia.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+EDP - Energias de Portugal,Portugal,Energy/Utilities,Lisbon,https://edp.com/en,Y,,,,,,,unverified - pending manual review,"direct company sourcing - dedicated sustainability subpage not confirmed, verify before use"
+Galp Energia,Portugal,Energy/Oil & Gas,Lisbon,https://www.galp.com/corp/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Jeronimo Martins,Portugal,Food Retail/Distribution,Lisbon,https://www.jeronimomartins.com/en/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Sonae,Portugal,Retail/Diversified Holdings,Maia,https://www.sonae.pt/en/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Millennium bcp,Portugal,Banking,Lisbon,https://ind.millenniumbcp.pt/en/Institucional/sustentabilidade/Pages/,Y,,,,,,,unverified - pending manual review,"direct company sourcing - URL unconfirmed by search, verify before use"
+CTT Correios de Portugal,Portugal,Postal/Logistics,Lisbon,https://www.ctt.pt/grupo-ctt/sustentabilidade,Y,,,,,,,unverified - pending manual review,direct company sourcing
+REN - Redes Energeticas Nacionais,Portugal,Energy/Utilities Infrastructure,Lisbon,https://www.ren.pt/en-gb,Y,,,,,,,unverified - pending manual review,"direct company sourcing - dedicated sustainability subpage not confirmed, verify before use"
+Navigator Company,Portugal,Forest Products/Paper & Pulp,Lisbon,https://www.thenavigatorcompany.com/en/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+HELLENiQ ENERGY,Greece,Energy/Oil & Gas,Athens (Maroussi),https://www.helleniqenergy.com/en/company-publications,Y,,,,,,,unverified - pending manual review,direct company sourcing
+OTE - Hellenic Telecommunications,Greece,Telecommunications,Athens (Maroussi),https://www.ote.gr,Y,,,,,,,unverified - pending manual review,"direct company sourcing - dedicated sustainability subpage not confirmed, verify before use"
+Public Power Corporation (PPC),Greece,Energy/Utilities,Athens,https://www.ppcgroup.com/en/ppc-group/about-us/,Y,,,,,,,unverified - pending manual review,"direct company sourcing - dedicated sustainability subpage not confirmed, verify before use"
+Piraeus Financial Holdings,Greece,Banking,Athens,https://www.piraeusholdings.gr/en/esg,Y,,,,,,,unverified - pending manual review,direct company sourcing
+National Bank of Greece,Greece,Banking,Athens,https://www.nbg.gr/en/group/esg,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Eurobank Ergasias,Greece,Banking,Athens,https://www.eurobank.gr/en/group/annual-report/2024/eurobank-overview,Y,,,,,,,unverified - pending manual review,"direct company sourcing - dedicated sustainability subpage not confirmed, verify before use"
+Motor Oil Hellas,Greece,Energy/Oil Refining,Athens (Maroussi),https://www.moh.gr/,Y,,,,,,,unverified - pending manual review,"direct company sourcing - no dedicated sustainability subpage confirmed, verify before use"
+CEZ Group,Czech Republic,Energy/Utilities,Prague,https://www.cez.cz/sustainability/en/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Komercni banka,Czech Republic,Banking,Prague,https://www.kb.cz/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+MONETA Money Bank,Czech Republic,Banking,Prague,https://www.moneta.cz/web/moneta-esg/homepage,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Skoda Auto,Czech Republic,Automotive,Mlada Boleslav,https://www.skoda-auto.com/company/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Kofola CeskoSlovensko,Czech Republic,Beverages,Ostrava,https://investor.kofola.cz,Y,,,,,,,unverified - pending manual review,"direct company sourcing - dedicated sustainability subpage not confirmed, verify before use"
+Ceska sporitelna,Czech Republic,Banking,Prague,https://www.csas.cz/en/about-us/esg,Y,,,,,,,unverified - pending manual review,direct company sourcing
+OMV Petrom,Romania,Energy/Oil & Gas,Bucharest,https://www.omvpetrom.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Banca Transilvania,Romania,Banking,Cluj-Napoca,https://www.bancatransilvania.ro/en/relatii-investitori/environment-social-governance/impact,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Electrica,Romania,Energy/Utilities,Bucharest,https://www.electrica.ro/en/category/nonfinancials-reporting/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Romgaz,Romania,Energy/Natural Gas,Medias,https://www.romgaz.ro/en/sustenabilitate-rbsl,Y,,,,,,,unverified - pending manual review,direct company sourcing
+BRD - Groupe Societe Generale,Romania,Banking,Bucharest,https://www.brd.ro/en/about-brd/corporate-responsibility/environment,Y,,,,,,,unverified - pending manual review,direct company sourcing
+MOL Group,Hungary,Energy/Oil & Gas,Budapest,https://molgroup.info/en/sustainability/reports-and-data,Y,,,,,,,unverified - pending manual review,direct company sourcing
+OTP Bank,Hungary,Banking,Budapest,https://www.otpgroup.info/sustainability/strategy,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Gedeon Richter,Hungary,Pharmaceuticals,Budapest,https://www.gedeonrichter.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Magyar Telekom,Hungary,Telecommunications,Budapest,https://www.telekom.hu/,Y,,,,,,,unverified - pending manual review,"direct company sourcing - dedicated sustainability subpage not confirmed, verify before use"
+Wizz Air,Hungary,Airlines,Budapest,https://corporate.wizzair.com/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+ArcelorMittal,Luxembourg,Steel/Mining,Luxembourg City,https://corporate.arcelormittal.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+RTL Group,Luxembourg,Media/Broadcasting,Luxembourg City,https://www.rtlgroup.com,Y,,,,,,,unverified - pending manual review,"direct company sourcing - dedicated sustainability subpage not confirmed, verify before use"
+SES S.A.,Luxembourg,Satellite Communications,Betzdorf,https://www.ses.com/about-us/environmental-social-and-governance,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Eurofins Scientific,Luxembourg,Laboratory Testing/Diagnostics,Luxembourg City,https://www.eurofins.com/about-us/corporate-sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Aperam,Luxembourg,Steel/Stainless Steel,Luxembourg City,https://www.aperam.com/sustainability/essentials/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Krka,Slovenia,Pharmaceuticals,Novo Mesto,https://www.krka.biz/about-us/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Petrol Group,Slovenia,Energy,Ljubljana,https://www.petrol.eu/sustainable-development/environment/sustainable-petrol/sustainable-value-and-sustainable-strategy,Y,,,,,,,unverified - pending manual review,direct company sourcing
+NLB - Nova Ljubljanska Banka,Slovenia,Banking,Ljubljana,http://www.nlb.si/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+INA - Industrija Nafte,Croatia,Energy/Oil & Gas,Zagreb,https://www.ina.hr/en,Y,,,,,,,unverified - pending manual review,"direct company sourcing - dedicated sustainability subpage not confirmed, verify before use"
+Hrvatski Telekom,Croatia,Telecommunications,Zagreb,https://www.telekom.hr,Y,,,,,,,unverified - pending manual review,"direct company sourcing - dedicated sustainability subpage not confirmed, verify before use"
+Zagrebacka banka,Croatia,Banking,Zagreb,https://www.zaba.hr/home/en/about-us/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Slovnaft,Slovakia,Energy/Oil Refining,Bratislava,https://slovnaft.sk/en/about-us/,Y,,,,,,,unverified - pending manual review,"direct company sourcing - dedicated sustainability subpage not confirmed, verify before use"
+VUB banka,Slovakia,Banking,Bratislava,https://www.vub.sk/en/ludia/o-udrzatelnosti.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Tatra banka,Slovakia,Banking,Bratislava,https://www.tatrabanka.sk/en/personal/savings-investments-pension/sustainable-investing-esg/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Sopharma,Bulgaria,Pharmaceuticals,Sofia,https://www.sopharmagroup.com/en/home/investors,Y,,,,,,,unverified - pending manual review,"direct company sourcing - dedicated sustainability subpage not confirmed, verify before use"
+Bulgarian Energy Holding,Bulgaria,Energy/Utilities,Sofia,https://bgenh.com/en,Y,,,,,,,unverified - pending manual review,"direct company sourcing - dedicated sustainability subpage not confirmed, verify before use"
+DSK Bank,Bulgaria,Banking,Sofia,https://dskbank.bg/en,Y,,,,,,,unverified - pending manual review,"direct company sourcing - dedicated sustainability subpage not confirmed, verify before use"
+Ignitis Group,Lithuania,Energy/Utilities,Vilnius,https://www.ignitisgrupe.lt/en/sustainability-activities-and-results,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Siauliu Bankas,Lithuania,Banking,Siauliai,https://www.sb.lt/en/about/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Latvenergo,Latvia,Energy/Utilities,Riga,https://latvenergo.lv/en/sustainability_governance,Y,,,,,,,unverified - pending manual review,direct company sourcing
+airBaltic,Latvia,Airlines,Riga,https://company.airbaltic.com/en/esg,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Eesti Energia (Enefit),Estonia,Energy/Utilities,Tallinn,https://www.energia.ee/en/ettevottest/vastutustundlik-energia/keskkond/keskkonnapoliitika,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Tallink Grupp,Estonia,Ferries/Transportation,Tallinn,https://company.tallink.com/esg/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Bank of Valletta,Malta,Banking,Valletta,https://www.bov.com,Y,,,,,,,unverified - pending manual review,"direct company sourcing - dedicated sustainability subpage not confirmed, verify before use"
+Bank of Cyprus,Cyprus,Banking,Nicosia,https://www.bankofcyprus.com/en-gb/group/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Deutsche Lufthansa,Germany,Airlines,Frankfurt,https://www.lufthansagroup.com/en/responsibility/reports.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Zalando,Germany,E-commerce/Fashion Retail,Berlin,https://corporate.zalando.com/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Hannover Re,Germany,Reinsurance,Hannover,https://www.hannover-re.com/en/group/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Daimler Truck,Germany,Automotive/Commercial Vehicles,Stuttgart,https://www.daimlertruck.com/en/sustainability/reportings,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Symrise,Germany,Flavors & Fragrances/Specialty Chemicals,Holzminden,https://www.symrise.com/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Brenntag,Germany,Chemical Distribution,Essen,https://corporate.brenntag.com/en/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Evonik Industries,Germany,Specialty Chemicals,Essen,https://www.evonik.com/en/sustainability.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Rheinmetall,Germany,Defense/Automotive Technology,Duesseldorf,https://www.rheinmetall.com/en/responsibility/esg-reporting,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Porsche AG,Germany,Automotive,Stuttgart,https://newsroom.porsche.com/en/annual-sustainability-report/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Talanx,Germany,Insurance,Hannover,https://www.talanx.com/en/talanx-group/sustainability/sustainability_reports,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Orange S.A.,France,Telecommunications,Paris,https://www.orange.com/en/finance/financial-and-extra-financial-information,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Dassault Systemes,France,Software/3D Design,Velizy-Villacoublay,https://www.3ds.com/about/corporate-responsibility/impact-report,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Legrand,France,Electrical Equipment,Limoges,https://www.legrand.com/en/investors-and-shareholders/integrated-report/2025,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Bouygues,France,Construction/Telecom/Media Conglomerate,Paris,https://www.bouygues.com/en/integrated-report/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Carrefour,France,Retail/Grocery,Massy,https://www.carrefour.com,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Thales,France,Aerospace & Defense/Technology,Paris,https://www.thalesgroup.com/en/sustainability-thales/reports-and-data,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Safran,France,Aerospace & Defense,Paris,https://www.safran-group.com/sustainability/glance,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Edenred,France,Payments/Employee Benefits,Paris,https://www.edenred.com/en/group/our-publications,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Snam,Italy,Energy/Gas Infrastructure,San Donato Milanese,https://www.snam.it/en,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Terna,Italy,Energy/Electricity Grid,Rome,https://www.terna.it/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Mediobanca,Italy,Banking/Investment Banking,Milan,https://www.mediobanca.com/en/sustainability/documents-and-indexes.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Banco BPM,Italy,Banking,Milan,https://gruppo.bancobpm.it/en/sustainability/non-financial-statements/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Recordati,Italy,Pharmaceuticals,Milan,https://recordati.com/sustainability-contacts-documents/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Campari Group,Italy,Beverages/Spirits,Sesto San Giovanni,https://www.camparigroup.com/en/page/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Pirelli,Italy,Tires/Automotive,Milan,https://corporate.pirelli.com/corporate/en-ww/sustainability/reports,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Tenaris,Luxembourg,Steel Pipes/Oil & Gas Equipment,Luxembourg City,https://www.tenaris.com/en/sustainability,Y,,,,,,,unverified - pending manual review,"direct company sourcing - legally domiciled in Luxembourg (26 Boulevard Royal) though operationally an Italian-Argentine multinational, verify HQ classification before use"
+Naturgy,Spain,Energy/Gas & Electricity,Madrid,https://www.naturgy.com/en/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+ACS Group,Spain,Construction/Engineering,Madrid,https://www.grupoacs.com/sustainability/sustainability-reports/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Ferrovial,Spain,Infrastructure/Construction,"Amsterdam (Spanish-founded, redomiciled to Netherlands 2023)",https://www.ferrovial.com/en/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing - Ferrovial SE redomiciled from Spain to the Netherlands in 2023; verify current country classification before use
+Grifols,Spain,Pharmaceuticals/Biotechnology,Barcelona,https://www.grifols.com/en/sustainability-reports,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Mapfre,Spain,Insurance,Madrid,https://www.mapfre.com/en/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Acciona,Spain,Infrastructure/Renewable Energy,Madrid,https://www.acciona.com,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Cellnex Telecom,Spain,Telecommunications Infrastructure,Madrid,https://www.cellnex.com/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Prosus,Netherlands,Technology/Internet Holding,Amsterdam,https://www.prosus.com/investors/financial-information/annual-reports,Y,,,,,,,unverified - pending manual review,direct company sourcing
+KPN,Netherlands,Telecommunications,The Hague,https://www.overons.kpn/en/kpn-in-the-netherlands/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Signify,Netherlands,Lighting Technology,Eindhoven,https://www.signify.com/global/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Aegon,Netherlands,Insurance/Asset Management,The Hague,https://www.aegon.com,Y,,,,,,,unverified - pending manual review,direct company sourcing
+NN Group,Netherlands,Insurance,The Hague,https://www.nn-group.com/sustainability.htm,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Universal Music Group,Netherlands,Music/Entertainment,Hilversum,https://investors.universalmusic.com,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Bank Pekao,Poland,Banking,Warsaw,https://www.pekao.com.pl/esg/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+mBank,Poland,Banking,Warsaw,https://www.mbank.pl/en/about-us/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Asseco Poland,Poland,Software/IT Services,Rzeszow,https://inwestor.asseco.com/en/,Y,,,,,,,unverified - pending manual review,direct company sourcing - most recent confirmed standalone non-financial report is FY2023; verify whether a newer edition has since been published
+Enea,Poland,Energy/Electricity,Poznan,https://www.enea.pl/strona-korporacyjna/raportowanie-esg,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Tauron Polska Energia,Poland,Energy/Electricity,Katowice,https://www.tauron.pl/tauron/o-tauronie/tauron-dla-otoczenia/raport-zrownowazonego-rozwoju,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Ciech (Qemetica),Poland,Chemicals,Warsaw,https://qemetica.com/en/sustainability,Y,,,,,,,unverified - pending manual review,"direct company sourcing - company renamed from Ciech to Qemetica in 2024; most recent confirmed standalone sustainability report is FY2023, verify for a newer edition"
+Colruyt Group,Belgium,Retail/Grocery,Halle,https://www.colruytgroup.com/en/investor-relations/annual-report-with-sustainability-reporting,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Proximus,Belgium,Telecommunications,Brussels,https://www.proximus.com/green.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+D'Ieteren Group,Belgium,Automotive Distribution/Diversified Holding,Brussels,https://www.dieterengroup.com/non-financial-reporting/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Elia Group,Belgium,Energy/Electricity Grid,Brussels,https://www.elia.be/en/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+bpost (Bnode),Belgium,Postal/Logistics,Brussels,https://bpostgroup.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing - bpost group has rebranded to Bnode; verify current corporate/reporting name before use
+Raiffeisen Bank International,Austria,Banking,Vienna,https://www.rbinternational.com/en/raiffeisen/sustainability-esg/sustainability-reports.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Wienerberger,Austria,Building Materials,Vienna,https://www.wienerberger.com/en/sustainability.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Andritz,Austria,Industrial Machinery/Plant Engineering,Graz,https://www.andritz.com/sustainability-en/sustainability-reports,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Mayr-Melnhof Karton,Austria,Packaging/Paperboard,Vienna,https://mm.group/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Vienna Insurance Group,Austria,Insurance,Vienna,https://group.vig/en/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Pandora,Denmark,Jewelry/Retail,Copenhagen,https://pandoragroup.com/sustainability/resources/sustainability-reports,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Tryg,Denmark,Insurance,Ballerup,https://tryg.com/en/sustainability/reporting,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Ambu,Denmark,Medical Devices,Ballerup,https://www.ambu.com/about/sustainability/our-work,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Demant,Denmark,Medical Devices/Hearing Healthcare,Smorum,https://www.demant.com/investor-relations/annual-report-2025,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Flutter Entertainment,Ireland,Gambling/Online Betting,Dublin,https://www.flutter.com/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Greencore Group,Ireland,Food Manufacturing,Dublin,https://www.greencore.com/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Irish Continental Group,Ireland,Maritime Transport/Shipping,Dublin,https://icg.ie/about/environment/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+DCC plc,Ireland,Diversified Distribution/Energy,Dublin,https://www.dcc.ie/investors/annual-and-sustainability-reports/annual-and-sustainability-reports,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Mota-Engil,Portugal,Construction/Engineering,Porto,https://www.mota-engil.com/en/sustainability/esg-performance-report/,Y,,,,,,,unverified - pending manual review,direct company sourcing - most recent standalone Integrated Report confirmed as downloadable is FY2023; verify for a newer edition
+Semapa,Portugal,Pulp & Paper/Cement Holding,Lisbon,https://www.semapa.pt/en/investors/financial-information/,Y,,,,,,,unverified - pending manual review,"direct company sourcing - direct sustainability/ESG report PDF not confirmed; only Corporate Governance Report and financial reports located, verify for a dedicated sustainability report"
+Corticeira Amorim,Portugal,Cork Products/Manufacturing,Mozelos,https://www.amorim.com/en/sustainability/reports/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Titan Cement Group,Greece,Cement/Building Materials,Athens,https://www.titanmaterials.com/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Jumbo S.A.,Greece,Retail/Toys & Household Goods,Athens,https://corporate.e-jumbo.gr/en/investor-relations/annual-report/ektheseis-mi-chrimatooikonomikis-pliroforisis/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Aegean Airlines,Greece,Airlines,Athens (Kifisia),https://en.about.aegeanair.com/corporate-responsibility/csr-report/,Y,,,,,,,unverified - pending manual review,direct company sourcing - most recent confirmed downloadable report is the FY2024 Annual Report with sustainability statement; verify for a newer FY2025 edition
+Waberer's International,Hungary,Transportation/Logistics,Budapest,https://www.waberers.com/en/press-room/news/waberers-presents-its-first-sustainability-and-esg-reports-in-line-with-the-csrd-directive.html,Y,,,,,,,unverified - pending manual review,direct company sourcing
+4iG,Hungary,Telecommunications/IT,Budapest,https://www.4ig.hu,Y,,,,,,,unverified - pending manual review,direct company sourcing - most recent standalone sustainability report confirmed as downloadable is FY2023; verify for a newer edition
+Masterplast,Hungary,Building Materials/Insulation,Szekesfehervar,https://www.masterplastgroup.com/en/document_folder/esg-report/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Zwack Unicum,Hungary,Beverages/Spirits,Budapest,https://zwackunicum.hu/en/fenntarthatosag/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Digi Communications,Romania,Telecommunications,Bucharest,https://www.digi-communications.ro/en/investor-relations/shares/financial-results-shares/annual-reports-shares,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Transelectrica,Romania,Energy/Electricity Transmission,Bucharest,https://www.transelectrica.ro/en/web/tel/rapoarte-2024,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Nuclearelectrica,Romania,Nuclear Power/Energy,Bucharest,https://nuclearelectrica.ro/ir/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+One United Properties,Romania,Real Estate Development,Bucharest,https://www.one.ro/en/investor-relations,Y,,,,,,,unverified - pending manual review,direct company sourcing - most recent confirmed standalone sustainability report is FY2023; verify for a newer edition
+CETIN Group,Czech Republic,Telecommunications Infrastructure,Prague,https://www.cetin.cz/sustainability/documents-for-download,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Philip Morris CR,Czech Republic,Tobacco,Kutna Hora,https://www.pmi.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Colt CZ Group,Czech Republic,Defense/Firearms Manufacturing,Uhersky Brod,https://www.coltczgroup.com/en/investors,Y,,,,,,,unverified - pending manual review,"direct company sourcing - Colt CZ Group SE (formerly Ceska zbrojovka, firearms manufacturer) is distinct from the unrelated Colt Technology Services/Colt Group (telecoms); most recent confirmed sustainability disclosure is the Sustainability Statement within the FY2024 Annual Financial Report"
+O2 Czech Republic,Czech Republic,Telecommunications,Prague,https://www.o2.cz,Y,,,,,,,unverified - pending manual review,direct company sourcing - most recent confirmed standalone ESG report is FY2022; verify for a newer edition
+Investor AB,Sweden,Investment Holding,Stockholm,https://www.investorab.com,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Epiroc,Sweden,Industrial Machinery/Mining Equipment,Stockholm,https://www.epirocgroup.com/en/sustainability/our-sustainability-approach,Y,,,,,,,unverified - pending manual review,direct company sourcing
+NIBE Industrier,Sweden,Climate Solutions/Heating Technology,Markaryd,https://www.nibe.com/sustainability/sustainability-reports-and-policys,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Elisa,Finland,Telecommunications,Helsinki,https://elisa.com/corporate/sustainability/reporting-and-contact-information/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Konecranes,Finland,Industrial Machinery/Cranes,Hyvinkaa,https://investors.konecranes.com/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Orion Corporation,Finland,Pharmaceuticals,Espoo,https://www.orion.fi/en/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Telekom Slovenije,Slovenia,Telecommunications,Ljubljana,https://www.telekom.si/en/about-us/sustainable-business,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Luka Koper,Slovenia,Port Operations/Maritime Logistics,Koper,https://www.luka-kp.si/en/investors/annual-reports/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Cinkarna Celje,Slovenia,Chemicals/Metallurgy,Celje,https://www.cinkarna.si/uploads/Objave/2026/Annual_report_2025.pdf,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Podravka,Croatia,Food & Beverage Manufacturing,Koprivnica,https://www.podravka.com/sustainability/reporting/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Atlantic Grupa,Croatia,Consumer Goods/Food & Beverage,Zagreb,https://www.atlanticgrupa.com/en/sustainability/quality-policy/reporting/,Y,,,,,,,unverified - pending manual review,direct company sourcing - Atlantic Grupa (Croatian consumer goods) is distinct from the unrelated French company 'Groupe Atlantic' which also publishes sustainability reports; verify entity before use. Direct PDF link not confirmed
+Adris Grupa,Croatia,Diversified Holding (Tobacco/Tourism/Insurance),Rovinj,https://www.adris.hr,Y,,,,,,,unverified - pending manual review,"direct company sourcing - no dedicated standalone sustainability/ESG report PDF located; only annual reports found, verify current sustainability disclosure format"
+Slovenske elektrarne,Slovakia,Nuclear/Energy Generation,Bratislava,https://www.seas.sk/en/about-us/sustainability-and-inovation/strategies/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Slovak Telekom,Slovakia,Telecommunications,Bratislava,https://www.cr-report.telekom.com/2021/national-companies/slovakia-slovak-telekom-as,Y,,,,,,,unverified - pending manual review,direct company sourcing - most recent confirmed dedicated sustainability/CR reporting reference is 2021 (part of parent Deutsche Telekom Group's CR report); verify for a newer standalone or group-embedded edition
+Slovenska sporitelna,Slovakia,Banking,Bratislava,https://www.slsp.sk/en/information-about-bank/investors/financial-indicators,Y,,,,,,,unverified - pending manual review,"direct company sourcing - part of Erste Group, which publishes consolidated sustainability/non-financial reporting; a subsidiary-specific standalone sustainability report link was not confirmed"
+Eurohold Bulgaria,Bulgaria,Financial Holding (Insurance/Energy/Leasing),Sofia,https://www.eurohold.bg/files/documents/articles/d2ae86ac7b26eeca657cae3a0c51bc84.pdf,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Chimimport,Bulgaria,Financial/Industrial Holding,Sofia,https://www.chimimport.bg/en/,Y,,,,,,,unverified - pending manual review,direct company sourcing - company is confirmed to publish a Consolidated Annual Sustainability Report (externally audited) but a direct downloadable file URL could not be located; verify via investor relations documents section
+Neochim,Bulgaria,Chemicals/Fertilizers,Dimitrovgrad,https://www.neochim.bg/en/,Y,,,,,,,unverified - pending manual review,"direct company sourcing - no sustainability/ESG report could be confirmed via search; company holds ISO environmental/quality/H&S certifications, verify current sustainability disclosure directly on neochim.bg"
+Amber Grid,Lithuania,Energy/Gas Transmission Infrastructure,Vilnius,https://www.ambergrid.lt/en/sustainability/Sustainability-report,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Telia Lietuva,Lithuania,Telecommunications,Vilnius,https://www.telia.lt/eng/sustainability/reporting,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Latvijas Gaze,Latvia,Energy/Natural Gas,Riga,https://lg.lv/en/about-us/sustainability,Y,,,,,,,unverified - pending manual review,direct company sourcing
+SAF Tehnika,Latvia,Telecommunications Equipment/Microwave Radio,Riga,https://saftehnika.com/investors-eng,Y,,,,,,,unverified - pending manual review,"direct company sourcing - no dedicated standalone sustainability report confirmed; sustainability-related content likely limited to sections within the Annual Report and Auditors Report, verify directly"
+Tallinna Vesi,Estonia,Water Utility,Tallinn,https://tallinnavesi.ee,Y,,,,,,,unverified - pending manual review,direct company sourcing - most recent confirmed downloadable annual report with sustainability sections is FY2022; verify for a newer edition
+LHV Group,Estonia,Banking/Financial Services,Tallinn,https://investor.lhv.ee/en/reports/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+Malta International Airport,Malta,Airport Operations,Luqa,https://maltairport.com/corporate/corporate-responsibility/sustainability/,Y,,,,,,,unverified - pending manual review,direct company sourcing
+GO plc,Malta,Telecommunications,Marsa,https://prodcms.go.com.mt/wp-content/uploads/2025/05/Annual-Report.pdf,Y,,,,,,,unverified - pending manual review,direct company sourcing - sustainability/environmental content is a section (few pages) within the combined Annual Financial Report rather than a standalone report
+Hellenic Bank,Cyprus,Banking,Nicosia,https://www.hellenicbank.com,Y,,,,,,,unverified - pending manual review,"direct company sourcing - first company in Cyprus to voluntarily adopt CSRD/ESRS; FY2024 Sustainability Statement is published within the Annual Financial Report, FY2023 also had a standalone ESG Impact Report"
+Demetra Holdings (Demetra Investments),Cyprus,Investment Holding,Nicosia,https://www.demetra.com.cy/annual-reports/,Y,,,,,,,unverified - pending manual review,"direct company sourcing - no dedicated standalone sustainability/ESG report confirmed via search; only general Annual Reports located, verify current sustainability disclosure format directly"

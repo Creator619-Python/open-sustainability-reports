@@ -1,0 +1,45 @@
+{
+  "_disclaimer": "This is a FICTIONAL worked example demonstrating the submit -> validate -> review -> merge pipeline end-to-end (kept for onboarding/documentation purposes). The report_url below does not correspond to a real published document. This file is NOT a real merged submission and was excluded from the shipped eu_sustainability_sources_v5.json - see CONTRIBUTING.md for the real process.",
+  "submission_id": "sub-2026-08-21-0007",
+  "submitted_by": "test-contributor",
+  "submitted_date": "2026-08-21",
+  "target": {
+    "target_company_id": "sap",
+    "new_company": null,
+    "supersedes_entry_id": "sap-001"
+  },
+  "entry": {
+    "entry_id": "sub-2026-08-21-0007",
+    "source_type": "downloadable_report",
+    "reporting_year": "2026",
+    "publication_date": "2026-06-15",
+    "report_url": "https://www.sap.com/docs/download/investors/2026/sap-2026-integrated-report.pdf",
+    "report_title": "SAP Integrated Report 2026",
+    "source_url": null,
+    "retrieved_date": null,
+    "archive_url": null,
+    "parent_document_type": null,
+    "parent_document_url": null,
+    "section_reference": null,
+    "frameworks_referenced": [
+      "GRI",
+      "CSRD"
+    ],
+    "is_legacy": false,
+    "notes": "Newer report supersedes the 2025 one; includes a full GRI content index this year."
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_by": "maintainer-bob",
+    "reviewed_date": "2026-08-22",
+    "checklist": {
+      "url_resolves_and_matches_claim": true,
+      "no_duplicate_or_conflicting_entry": true,
+      "frameworks_referenced_grounded_in_source_text": true,
+      "source_type_field_group_correct": true,
+      "is_legacy_and_supersedes_handled_correctly": true,
+      "no_name_collision_risk_or_flagged_in_notes": true
+    },
+    "reviewer_notes": "Checked PDF, GRI index present on p. 210."
+  }
+}

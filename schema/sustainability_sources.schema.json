@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Creator619-Python/open-sustainability-reports/schema/sustainability_sources.schema.json",
+  "title": "EU Sustainability Reports - Company Record (v0.5 schema)",
+  "description": "Company-centric record with a multi-entry sustainability_sources array. Replaces the v0.1-v0.4 flat one-entry-per-company shape (see MIGRATION_NOTES.md). A single company may have several source entries over time and across types: a current downloadable_report, an agr_section (sustainability statement embedded in an Annual General Report), and/or a webpage entry, plus older is_legacy:true entries for historical tracking.",
+  "type": "object",
+  "required": ["company_id", "company_name", "country", "sector", "sustainability_sources"],
+  "additionalProperties": false,
+  "properties": {
+    "company_id": {
+      "type": "string",
+      "description": "Stable, URL-safe slug uniquely identifying the company across the dataset. Generated from company_name at migration time (lowercase, ASCII, hyphen-separated); does not change even if company_name is later corrected/renamed, to avoid breaking entry_id references and external citations.",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "company_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "country": {
+      "type": "string",
+      "description": "HQ country. One of the 27 EU member states in the current pilot scope.",
+      "minLength": 1
+    },
+    "sector": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sustainability_sources": {
+      "type": "array",
+      "description": "One or more source entries for this company. Order is not meaningful for consumers; sort by publication_date/reporting_year if a specific order is needed. At least one entry is required per company.",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/sourceEntry" }
+    }
+  },
+  "$defs": {
+    "sourceEntry": {
+      "type": "object",
+      "required": [
+        "entry_id",
+        "source_type",
+        "reporting_year",
+        "publication_date",
+        "report_url",
+        "report_title",
+        "source_url",
+        "retrieved_date",
+        "archive_url",
+        "parent_document_type",
+        "parent_document_url",
+        "section_reference",
+        "frameworks_referenced",
+        "is_legacy",
+        "notes"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "entry_id": {
+          "type": "string",
+          "description": "Stable id for this specific entry, unique within the company. Convention: '<company_id>-<zero-padded sequence>', e.g. 'sap-001'. Never reused, even if an entry is superseded - superseded entries are kept and marked is_legacy:true rather than deleted, so entry_id remains a stable citation target.",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*-[0-9]{3,}$"
+        },
+        "source_type": {
+          "type": "string",
+          "enum": ["downloadable_report", "webpage", "agr_section"],
+          "description": "Determines which field group below is populated. See per-type rules in the 'Field groups by source_type' section of MIGRATION_NOTES.md / CONTRIBUTING.md."
+        },
+        "reporting_year": {
+          "type": ["string", "null"],
+          "description": "The fiscal/reporting year the source covers, e.g. '2024' or 'FY2024/25'. Free-text string (not integer) to accommodate split fiscal years. Null if not yet determined.",
+          "pattern": "^$|^[A-Za-z0-9/ .\\-]+$"
+        },
+        "publication_date": {
+          "type": ["string", "null"],
+          "description": "Date the source document/page was published, if known.",
+          "format": "date"
+        },
+        "report_url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "description": "Populated when source_type = downloadable_report: direct link to the downloadable PDF/document. Null for webpage and agr_section entries."
+        },
+        "report_title": {
+          "type": ["string", "null"],
+          "description": "Populated when source_type = downloadable_report: the report's title as published. Null for webpage and agr_section entries."
+        },
+        "source_url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "description": "Populated when source_type = webpage: the live URL of the sustainability page. Null for downloadable_report and agr_section entries."
+        },
+        "retrieved_date": {
+          "type": ["string", "null"],
+          "format": "date",
+          "description": "Populated when source_type = webpage (recommended also for agr_section): the date this entry's contents/URL were last checked, since webpages can change or move without notice. Null for downloadable_report entries."
+        },
+        "archive_url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "description": "Populated when source_type = webpage: a Wayback Machine (web.archive.org) snapshot URL captured at/near retrieved_date, so the citation survives even if the live page changes or disappears. Null for downloadable_report and agr_section entries. See tools/archive_snapshot.py to (re)generate."
+        },
+        "parent_document_type": {
+          "type": ["string", "null"],
+          "enum": ["annual_general_report", null],
+          "description": "Populated when source_type = agr_section: the type of the containing document. Currently only 'annual_general_report' is a defined value; extend the enum here if other embedding-document types are added later. Null for downloadable_report and webpage entries."
+        },
+        "parent_document_url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "description": "Populated when source_type = agr_section: link to the full containing document (e.g. the Annual Report PDF). Null for downloadable_report and webpage entries."
+        },
+        "section_reference": {
+          "type": ["string", "null"],
+          "description": "Populated when source_type = agr_section: where within parent_document_url the sustainability content lives, e.g. a page range ('pp. 45-78') or section name ('Sustainability Statement', 'Non-Financial Information Statement'). Null for downloadable_report and webpage entries."
+        },
+        "frameworks_referenced": {
+          "type": "array",
+          "description": "Flat list of reporting frameworks this entry references or is aligned with. Not nested/subfoldered per framework. Empty array if not yet determined - absence of a framework here is not a negative claim, just 'not yet confirmed'.",
+          "items": {
+            "type": "string",
+            "enum": ["GRI", "CSRD", "TCFD", "TNFD", "IFRS_S1", "IFRS_S2"]
+          },
+          "uniqueItems": true
+        },
+        "is_legacy": {
+          "type": "boolean",
+          "description": "true marks an older/historical entry retained for progress tracking (e.g. last year's report, once a newer one is added). false marks the current/most-recently-confirmed entry for that source_type. A company can have multiple is_legacy:true entries but should generally have exactly one non-legacy entry per source_type at a time (not schema-enforced; see validate_submission.py business-rule checks)."
+        },
+        "notes": {
+          "type": ["string", "null"],
+          "description": "Free text: CSRD/ESRS migration notes, name-collision warnings, fiscal-year mismatches, sourcing caveats, etc."
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "source_type": { "const": "downloadable_report" } } },
+          "then": {
+            "properties": {
+              "source_url": { "const": null },
+              "retrieved_date": { "const": null },
+              "archive_url": { "const": null },
+              "parent_document_type": { "const": null },
+              "parent_document_url": { "const": null },
+              "section_reference": { "const": null }
+            },
+            "required": ["report_url"]
+          }
+        },
+        {
+          "if": { "properties": { "source_type": { "const": "webpage" } } },
+          "then": {
+            "properties": {
+              "report_url": { "const": null },
+              "report_title": { "const": null },
+              "parent_document_type": { "const": null },
+              "parent_document_url": { "const": null },
+              "section_reference": { "const": null }
+            },
+            "required": ["source_url"]
+          }
+        },
+        {
+          "if": { "properties": { "source_type": { "const": "agr_section" } } },
+          "then": {
+            "properties": {
+              "report_url": { "const": null },
+              "report_title": { "const": null },
+              "source_url": { "const": null },
+              "archive_url": { "const": null }
+            },
+            "required": ["parent_document_url", "parent_document_type"]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+name: Validate submissions
+
+# Runs automatically on any PR that touches submissions/pending/*.json - the
+# automated "edit filter" layer that catches malformed/incomplete/conflicting
+# submissions before a human reviewer spends time on them. This check is
+# required to pass before a submission PR can be merged (configure branch
+# protection on `main` to require this check), but a PASS here is NOT
+# approval - it only means the submission is well-formed enough to be
+# reviewable. A human still has to set review.status to "approved" and a
+# maintainer still has to run merge_submissions.py.
+
+on:
+  pull_request:
+    paths:
+      - "submissions/pending/**.json"
+  push:
+    branches: [main]
+    paths:
+      - "submissions/pending/**.json"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # need origin/main history for the git diff check below
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install jsonschema referencing
+
+      - name: Validate every pending submission
+        run: python3 validate_submission.py
+
+      - name: Reject direct edits to the live dataset in the same PR
+        # Submissions must go through submissions/pending/ + merge_submissions.py,
+        # not direct edits to eu_sustainability_sources_v5.json in a contributor PR -
+        # that file is only ever changed by a maintainer running the merge script.
+        # This mirrors protecting a Wikipedia article's live text from anonymous
+        # direct writes while still allowing anyone to propose an edit.
+        run: |
+          if git diff --name-only origin/main...HEAD | grep -qx "eu_sustainability_sources_v5.json"; then
+            echo "::error::This PR modifies eu_sustainability_sources_v5.json directly."
+            echo "::error::Please propose your change as a file under submissions/pending/ instead - see CONTRIBUTING.md."
+            exit 1
+          fi

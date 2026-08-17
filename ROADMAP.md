@@ -1,24 +1,29 @@
 # Roadmap
 
-Ideas for evolving this from a v0.1 pilot dataset into a community-maintained resource. Nothing here is committed to a timeline — this is a working list.
+Ideas for evolving this from a pilot dataset into a community-maintained resource. Nothing here is committed to a timeline — this is a working list.
+
+## ✅ Done as of v0.5: multi-source-per-company schema + submission workflow
+
+Two items that used to live in this roadmap as open ideas are now shipped:
+
+- **Legacy / historical reports** — `sustainability_sources` is an array per company, and each entry has `is_legacy: true/false`, so a company can carry both its current source(s) and older ones kept for progress tracking (report_year over report_year, is coverage widening, is the company migrating from GRI to ESRS/CSRD) instead of being overwritten each time. See `MIGRATION_NOTES.md`.
+- **Community contribution workflow (Wikipedia-style verification)** — `CONTRIBUTING.md` + `submissions/` + `validate_submission.py` + `merge_submissions.py` implement a propose -> automated-check -> human-review -> merge flow, with an audit trail (`submissions/archive/`) of who submitted and who approved each entry.
+
+## Next up
+
+- **Update `gemini_gri_extractor.py` for the v0.5 schema.** It currently reads `all_487_report_sources.csv` (the old flat manifest) and writes verification fields that no longer have a home in `sustainability_sources` entries in the same shape. Needs to be re-pointed at `eu_sustainability_sources_v5.json`, verifying each entry's `report_url` / `parent_document_url` (as appropriate to `source_type`) and writing results into that entry's `frameworks_referenced` / `notes` instead of a separate CSV row.
+- **`tools/archive_snapshot.py`** — walk all `webpage`-type entries and request/record a Wayback Machine snapshot into `archive_url`. Deliberately not built as part of the migration itself (108 live outbound requests should be rate-limited and reviewed, not fired blind from a batch script).
+- **Backfill `retrieved_date`** for the 108 migrated `webpage` entries where it's currently `null` (the original research didn't record per-row retrieval timestamps). Likely needs a re-verification pass rather than a guess.
 
 ## Source quality: downloadable documents over landing pages
 
-As of the 311-company expansion, `all_311_report_sources.csv` distinguishes three kinds of entries via a `source_type` column:
+`sustainability_sources` entries come in three kinds via `source_type`:
 
-- `downloadable_pdf` — a direct link to the actual report file (sustainability report, GRI content index, or the sustainability-statement chapter of an Annual Report). This is the strong case: verifiers and tools like Gemini's `url_context` can read the primary document directly.
-- `webpage_landing_page` — no single downloadable file could be confirmed; the entry points to the company's reporting hub instead (e.g. Mercedes-Benz-style disclosures that live only on a webpage, not a PDF). These need a human or a browsing-capable tool to locate the actual document.
-- Where a company's GRI/sustainability content is embedded as a chapter within a broader Annual (General) Report rather than published standalone, the `notes` field says so explicitly and `additional_source_urls` links the standalone extract where one exists.
+- `downloadable_report` — a direct link to the actual standalone report file. This is the strong case: verifiers and tools like Gemini's `url_context` can read the primary document directly.
+- `agr_section` — the sustainability content is embedded as a section/chapter within a broader Annual General Report rather than published standalone; `parent_document_url` + `section_reference` say where to look.
+- `webpage` — no single downloadable file could be confirmed; the entry points to the company's reporting hub instead (e.g. some companies' disclosures live only on a webpage, not a PDF). `archive_url` should carry a Wayback Machine snapshot so the citation survives page changes.
 
-Going forward, new contributions should aim for `downloadable_pdf` wherever one exists, and only fall back to a landing page when a company genuinely doesn't publish one.
-
-## Legacy / historical reports
-
-Right now the dataset captures one snapshot (most recent report year) per company. A natural next step is a `report_year` history — linking prior years' reports (2021, 2022, 2023...) per company so the dataset can show trajectory: is a company's GRI coverage widening or shrinking, is assurance being added or dropped, is the company migrating from GRI to ESRS/CSRD (a pattern that shows up constantly in this dataset already). This would probably mean a separate `historical_reports.csv` keyed by `company_name` + `report_year`, rather than widening the main table.
-
-## Community contribution workflow (Wikipedia-style verification)
-
-Currently every row is either "unverified — pending manual review" or has been checked via the Gemini extraction pipeline. A community version of this project would need a lightweight way for outside contributors to submit or correct a report link, with some equivalent of Wikipedia's "citation needed" / edit-history model: who added a source, when, and what changed. At minimum this could be a `CONTRIBUTING.md` process (PR with a source URL + one-line justification); at most, a small review queue. Not building the infrastructure now, just flagging the need.
+Going forward, new contributions should aim for `downloadable_report` wherever one genuinely exists, and only fall back to `webpage` when a company doesn't publish a standalone document.
 
 ## Benchmarking / gap analysis — reference: Muuvment IQ
 

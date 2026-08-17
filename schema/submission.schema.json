@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Creator619-Python/open-sustainability-reports/schema/submission.schema.json",
+  "title": "Community Submission (pending review)",
+  "description": "Shape of a single file under submissions/pending/. A submission proposes ONE new sustainability_sources entry, either for an existing company (matched by target_company_id) or a brand-new company (target_company_id omitted, new_company filled in instead). Submissions are never written directly into eu_sustainability_sources_v5.json - they sit in submissions/pending/ until a maintainer approves and runs merge_submissions.py. This mirrors a Wikipedia-style 'propose an edit, then a human reviews it' flow rather than direct writes to the live article.",
+  "type": "object",
+  "required": ["submission_id", "submitted_by", "submitted_date", "target", "entry", "review"],
+  "additionalProperties": false,
+  "properties": {
+    "submission_id": {
+      "type": "string",
+      "description": "Unique id for this submission, e.g. 'sub-2026-08-21-0007'. Assigned by validate_submission.py if left blank (see tooling), or by the submitter following the same convention.",
+      "pattern": "^sub-[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9]{4}$"
+    },
+    "submitted_by": {
+      "type": "string",
+      "description": "GitHub username (or name/contact) of the submitter. Required so reviewers can follow up with questions - anonymous submissions are not accepted, same as Wikipedia requiring an attributable account for anything beyond trivial fixes.",
+      "minLength": 1
+    },
+    "submitted_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "target": {
+      "type": "object",
+      "description": "Which company this submission is for. Exactly one of target_company_id (existing company) or new_company (brand-new company) must be set.",
+      "additionalProperties": false,
+      "properties": {
+        "target_company_id": {
+          "type": ["string", "null"],
+          "description": "company_id of an existing company this entry should be added to. Null if this submission is proposing a brand-new company (see new_company)."
+        },
+        "new_company": {
+          "type": ["object", "null"],
+          "description": "Set only when target_company_id is null - proposes a company not yet in the dataset.",
+          "additionalProperties": false,
+          "properties": {
+            "company_name": { "type": "string", "minLength": 1 },
+            "country": { "type": "string", "minLength": 1 },
+            "sector": { "type": "string", "minLength": 1 }
+          },
+          "required": ["company_name", "country", "sector"]
+        },
+        "supersedes_entry_id": {
+          "type": ["string", "null"],
+          "description": "If this submission should replace an existing entry as the current one (e.g. a newer year's report), set this to that entry's entry_id. On merge, that old entry is automatically flipped to is_legacy:true rather than deleted - history is kept, not overwritten, same as a Wikipedia page history."
+        }
+      },
+      "oneOf": [
+        { "required": ["target_company_id"], "properties": { "target_company_id": { "type": "string" } } },
+        { "required": ["new_company"], "properties": { "new_company": { "type": "object" } } }
+      ]
+    },
+    "entry": {
+      "description": "The proposed sustainability_sources entry itself. Same shape as schema/sustainability_sources.schema.json#/$defs/sourceEntry. NOTE on entry_id: submitters should set it to a placeholder equal to this submission's submission_id (e.g. 'sub-2026-08-21-0007') - that value already satisfies sourceEntry's entry_id pattern, so it validates, but merge_submissions.py OVERWRITES it with a proper '<company_id>-NNN' id (continuing that company's existing sequence) when the submission is merged. Don't hand-pick a '<company_id>-NNN' id yourself; you don't know what NNN should be until merge time.",
+      "allOf": [
+        { "$ref": "sustainability_sources.schema.json#/$defs/sourceEntry" }
+      ]
+    },
+    "review": {
+      "type": "object",
+      "description": "Filled in by maintainers, not by the submitter. A submission PR should be opened with this block left at its default ('pending', empty checks) - reviewers fill it in as part of the review, and CI blocks merge_submissions.py from running until status is 'approved'.",
+      "additionalProperties": false,
+      "required": ["status", "reviewed_by", "reviewed_date", "checklist", "reviewer_notes"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["pending", "changes_requested", "approved", "rejected"]
+        },
+        "reviewed_by": { "type": ["string", "null"] },
+        "reviewed_date": { "type": ["string", "null"], "format": "date" },
+        "checklist": {
+          "type": "object",
+          "description": "Reviewer must be able to check all of these before setting status to 'approved'. See CONTRIBUTING.md for what each check means.",
+          "additionalProperties": false,
+          "properties": {
+            "url_resolves_and_matches_claim": { "type": "boolean" },
+            "no_duplicate_or_conflicting_entry": { "type": "boolean" },
+            "frameworks_referenced_grounded_in_source_text": { "type": "boolean" },
+            "source_type_field_group_correct": { "type": "boolean" },
+            "is_legacy_and_supersedes_handled_correctly": { "type": "boolean" },
+            "no_name_collision_risk_or_flagged_in_notes": { "type": "boolean" }
+          }
+        },
+        "reviewer_notes": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

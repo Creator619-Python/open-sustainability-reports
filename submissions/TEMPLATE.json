@@ -1,0 +1,37 @@
+{
+  "submission_id": "sub-YYYY-MM-DD-NNNN",
+  "submitted_by": "your-github-username",
+  "submitted_date": "YYYY-MM-DD",
+  "target": {
+    "_comment": "Fill in EITHER target_company_id (if the company is already in the dataset - check company_id values in eu_sustainability_sources_v5.json) OR new_company (if it isn't). Leave the other one as null. Delete this _comment line before submitting - it's not part of the schema.",
+    "target_company_id": null,
+    "new_company": null,
+    "supersedes_entry_id": null
+  },
+  "entry": {
+    "_comment": "entry_id: copy your submission_id here as a placeholder (it will be replaced automatically at merge time). source_type: one of downloadable_report | webpage | agr_section - see CONTRIBUTING.md for which field group to fill in for each. Every field below must be present even if null - do not delete keys, just set them to null. Delete this _comment line before submitting.",
+    "entry_id": "sub-YYYY-MM-DD-NNNN",
+    "source_type": "downloadable_report",
+    "reporting_year": null,
+    "publication_date": null,
+    "report_url": null,
+    "report_title": null,
+    "source_url": null,
+    "retrieved_date": null,
+    "archive_url": null,
+    "parent_document_type": null,
+    "parent_document_url": null,
+    "section_reference": null,
+    "frameworks_referenced": [],
+    "is_legacy": false,
+    "notes": null
+  },
+  "review": {
+    "_comment": "Leave this whole block exactly as-is. Reviewers fill it in - do not set status to 'approved' yourself. Delete this _comment line before submitting.",
+    "status": "pending",
+    "reviewed_by": null,
+    "reviewed_date": null,
+    "checklist": {},
+    "reviewer_notes": null
+  }
+}
